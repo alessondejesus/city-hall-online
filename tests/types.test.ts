@@ -1,7 +1,7 @@
 /*  types */
 type People = {
     id: number
-    name: string
+    readonly name: string
     email: string
 }
 type Profession = {
@@ -10,6 +10,7 @@ type Profession = {
     name: string
 }
 
+
 /*  interseção */
 type PeopleInfo = People & Profession
 
@@ -17,7 +18,13 @@ let alesson: People = { id: 5, name: 'Áleson de Jesus', email: 'asn90062@hotmai
 let workerPeople: Profession = { people: alesson, id: 555, name: "Developer" }
 
 
-
 test('return true 4ever', () => {
     expect(true).toBe(true);
 })
+
+/* Conclusão: 
+- Bom para uso rapido
+- Bom pra quem gosta de usar objetos
+*/
+
+//CONCISTENCIA!!!

@@ -38,8 +38,13 @@ class CreateGame implements IGame{
 }
 const newGame = new CreateGame('Dofus retro', 'Versao 1.29 do Dofus')
 
-
-
 test('return true 4ever', () => {
     expect(newGame.name).toBeInstanceOf(dofus)
 })
+
+/* Conclusão: 
+- Bom para criar libs e extender funções
+- Bom pra quem gosta de usar classes
+*/
+
+//CONCISTENCIA!!!

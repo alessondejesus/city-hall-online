@@ -1,6 +1,7 @@
 #### links:
 
 - Testes básicos em interfaces e types 
+- types ou interfaces
 
 -  https://medium.com/@oieduardorabelo/jest-babel-e-typescript-configurando-testes-para-seu-projeto-201f001f45ef
 
