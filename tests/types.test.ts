@@ -67,8 +67,8 @@ test('return true 4ever', () => {
 })
 
 /* Conclusão:
-- Bom para uso rapido
-- Bom pra quem gosta de usar objetos
+- Bom para uso rapido e flexivel
+- Bom pra quem gosta de usar objetos e funcoes
 - Se quiser adicionar mais propriedades basta extender
 */
 

@@ -17,6 +17,7 @@ interface ICompany extends IGame{
     gender: String
 }
 
+
 const warkfu :ICompany = { 
     name: 'warkfu',
     description: 'MMORPG massivo multiplayer',
@@ -43,7 +44,7 @@ test('return true 4ever', () => {
 })
 
 /* Conclusão: 
-- Bom para criar libs e extender funções
+- Bom para criar libs e implementar metodos e atributos
 - Bom pra quem gosta de usar classes
 */
 
